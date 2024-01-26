@@ -63,7 +63,7 @@ const CompetancesData = [
         bgColor:"bg-yellow-500"
     },
     {
-        img_path:"/ts.png",
+        img_path:"/js.png",
         title:"java script",
         note:4,
         bgColor:"bg-yellow-200"
