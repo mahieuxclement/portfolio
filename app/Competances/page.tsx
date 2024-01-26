@@ -1,6 +1,6 @@
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import {CompetanceComponent} from "../CompetanceComponent/page";
+import CompetanceComponent from "../CompetanceComponent/page";
 import { CompetancesData } from "../data";
 
 export const competances = () => {return (
