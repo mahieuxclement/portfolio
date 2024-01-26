@@ -1,8 +1,14 @@
 import Image from "next/image";
 
 const star = <Image className="" src="/star_jaune.png" alt="photo d'etoile'" width={30} height={30}/>
+interface PageProps{
+    img_paht:string,
+    title:string,
+    note:number,
+    bgColor:string
+}
 
-const CompetanceComponent = ({img_paht, title, note, bgColor}:{img_paht:string, title:string, note:number, bgColor:string}) => {
+export const CompetanceComponent = ({img_paht, title, note, bgColor}:PageProps) => {
     let classDivName = 'items-center rounded-l-full '+bgColor
     return (
     <div className='flex items-center bg-neutral-900'>
@@ -27,5 +33,3 @@ function printStars(note:number){
     }
     return imageNote
 }
-
-export default CompetanceComponent
