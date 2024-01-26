@@ -13,7 +13,7 @@ const ProjetData = [
     },
     {
         title:"reservation de firewall",
-        techno:["js", "sql", "python", "html","reseau"],
+        techno:["javaScripts", "sql", "python", "html","reseau"],
         content:`lors de mon stage de fin de 2eme
             année j'ai du réaliser pour mon entreprise un systeme de reservation. La problèmatique était que tout le monde travaillait sur des firewall
             mais il etait possible que deux personne veuille travailler sur un meme firewall, ils avait alors une page lisatnt les firewall avec differetes statistiques les concernant,
@@ -63,7 +63,7 @@ const CompetancesData = [
         bgColor:"bg-yellow-500"
     },
     {
-        img_path:"/js.png",
+        img_path:"/javaScripts.png",
         title:"java script",
         note:4,
         bgColor:"bg-yellow-200"
