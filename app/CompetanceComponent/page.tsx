@@ -1,3 +1,4 @@
+'use client';
 import Image from "next/image";
 
 const star = <Image className="" src="/star_jaune.png" alt="photo d'etoile'" width={30} height={30}/>
@@ -8,7 +9,7 @@ interface PageProps{
     bgColor:string
 }
 
-const CompetanceComponent = ({img_paht, title, note, bgColor}:PageProps) => {
+function CompetanceComponent({img_paht, title, note, bgColor}:PageProps){
     let classDivName = 'items-center rounded-l-full '+bgColor
     return (
     <div className='flex items-center bg-neutral-900'>
