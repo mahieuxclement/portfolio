@@ -12,7 +12,7 @@ export const Navbar = () => {
     return (
         <nav className="fixed top-0 left-0 right-0 z-10 bg-neutral-900 bg-opacity-100">
             <div className="flex flex-wrap items-center justify-between mx-auto p-8">
-                <Link href={"/"} className="text-2xl sm:text-4xl font-semibold">
+                <Link href={"/"} className="text-2xl sm:text-4xl font-semibold max-[350px]:hidden">
                     Mahieux Clément
                 </Link>
                 <div className="mobile block 2xl:hidden">

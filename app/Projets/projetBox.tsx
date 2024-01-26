@@ -11,10 +11,10 @@ interface PageProps{
 export default function ProjetComponent({title, techno, description}:PageProps) {
     const [descriptionOpen, setDescriptionOpen] = useState(false);
     return (
-    <div id={"box-"+title} className='grid grid-cols-2 items-center bg-neutral-900 max-[900px]:grid-cols-1'>
+    <div id={"box-"+title} className='grid grid-cols-2 items-center bg-neutral-900 min-[900px]:grid-cols-1'>
         <div className='flex-col mr-100'>
             <h1 className='mt-10 mb-6 text-4xl font-extrabold'>{title}</h1>
-            <div className='flex flex-1 items-center'>
+            <div className='flex flex-1 items-center flex-row max-[450px]:flex-col'>
                 {afficheTechno(techno)}
             </div>
             {descriptionOpen ? <>

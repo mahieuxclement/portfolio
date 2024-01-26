@@ -27,7 +27,7 @@ export default function HomeContent() {
             </div>
         </div>
     </div>
-    <div className="flex-1">
+    <div className="flex-1 max-[650px]:mt-24">
     {CvOpen ?<>
             <img className="mt-10 mb-7 m-auto flex-1 w-80%" src={"/cv_mahieux_clement.png"} alt="photo cv" style={{ width: '80%', height: 'auto' }}/>
         <button onClick={() =>{setCvOpen(false);}}className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white">
