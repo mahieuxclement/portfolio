@@ -1,7 +1,7 @@
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 
-export const competances = () => {return (
+export default function Memoire() {return (
     <main className='min-h-screen flex-col bg-neutral-900'>
         <Navbar/>
         <div className='mt-24 mx-auto px-12 py-4'>
@@ -23,4 +23,3 @@ export const competances = () => {return (
         <Footer/>
     </main>
 );}
-export default competances

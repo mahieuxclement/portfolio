@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-export const HomeContent = () => {
+export default function HomeContent() {
     const [CvOpen, setCvOpen] = useState(false);
     return (<>
     <div className='grid grid-cols-1 sm:grid-cols-11 mt-[150px]' >
@@ -41,5 +41,3 @@ export const HomeContent = () => {
     </>
     )
 };
-
-export default HomeContent;
