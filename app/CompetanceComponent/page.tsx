@@ -9,7 +9,7 @@ interface PageProps{
     bgColor:string
 }
 
-export default async function CompetanceComponent({img_paht, title, note, bgColor}:PageProps){
+export const CompetanceComponent = ({img_paht, title, note, bgColor}:PageProps) => {
     let classDivName = 'items-center rounded-l-full '+bgColor
     return (
     <div className='flex items-center bg-neutral-900'>
