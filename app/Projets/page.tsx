@@ -3,7 +3,7 @@ import Footer from "../Footer";
 import ProjetComponent from "./projetBox";
 import { ProjetData } from "../data";
 
-export const projets = () => {return (
+export default function projets() {return (
     <main className='min-h-screen flex-col bg-neutral-900'>
         <Navbar/>
         <div id="contentBody" className='items-center grid grid-flow-row-dense grid-cols-2 mt-24 mx-auto px-12 py-4 max-[900px]:grid-cols-1'>
@@ -16,4 +16,3 @@ export const projets = () => {return (
         <Footer/>
     </main>
 );}
-export default projets

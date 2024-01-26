@@ -1,4 +1,4 @@
-import { HomeContent } from './Home/page'
+import HomeContent from './Home/page'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
