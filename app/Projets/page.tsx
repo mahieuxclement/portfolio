@@ -1,6 +1,6 @@
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import ProjetComponent from "../projetComponent/page";
+import ProjetComponent from "./projetBox";
 import { ProjetData } from "../data";
 
 export const projets = () => {return (

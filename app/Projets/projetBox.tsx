@@ -2,7 +2,13 @@
 import Image from "next/image";
 import { useState } from "react";
 
-const ProjetComponent = ({title, techno, description}:{title:string, techno:string[], description:string}) => {
+interface PageProps{
+    title:string, 
+    techno:string[], 
+    description:string
+}
+
+export default function ProjetComponent({title, techno, description}:PageProps) {
     const [descriptionOpen, setDescriptionOpen] = useState(false);
     return (
     <div id={"box-"+title} className='grid grid-cols-2 items-center bg-neutral-900 max-[900px]:grid-cols-1'>
@@ -43,5 +49,3 @@ function afficheTechno(techno:string[]){
     }
     return imagesTechno
 }
-
-export default ProjetComponent
