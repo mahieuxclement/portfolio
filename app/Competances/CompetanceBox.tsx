@@ -20,7 +20,7 @@ export const CompetanceComponent = ({img_paht, title, note, bgColor}:PageProps) 
             </div>
         </div>
         <div className={classDivName}>
-            <Image className="mt-10 mb-7 ml-8" src={img_paht} alt={"logo de"+title} width={200} height={200}/>
+            <Image className="mt-10 mb-7 ml-8" src={img_paht} alt={"logo de "+title} width={200} height={200}/>
         </div>
         
     </div>
