@@ -9,7 +9,7 @@ interface PageProps{
     bgColor:string
 }
 
-function CompetanceComponent({img_paht, title, note, bgColor}:PageProps){
+export default async function CompetanceComponent({img_paht, title, note, bgColor}:PageProps){
     let classDivName = 'items-center rounded-l-full '+bgColor
     return (
     <div className='flex items-center bg-neutral-900'>
@@ -34,5 +34,3 @@ function printStars(note:number){
     }
     return imageNote
 }
-
-export default CompetanceComponent
