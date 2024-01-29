@@ -8,7 +8,7 @@ export default function HomeContent() {
     <div className='grid grid-cols-1 sm:grid-cols-11 mt-[150px]' >
         <div className="col-span-6 place-self-center text-center sm:text-left ">
             <h1 className='mb-8 lg:text-5xl font-extrabold'>
-                bonjour,<br/> binevenue sur mon portfolio
+                bonjour,<br/> bienvenue sur mon portfolio
             </h1>
             <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-7 '>
                 je suis un étudiant de 3ème année d'informatique<br/>
