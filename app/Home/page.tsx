@@ -8,11 +8,11 @@ export default function HomeContent() {
     <div className='grid grid-cols-1 sm:grid-cols-11 mt-[150px]' >
         <div className="col-span-6 place-self-center text-center sm:text-left ">
             <h1 className='mb-8 lg:text-5xl font-extrabold'>
-                bonjour,<br/> bienvenue sur mon portfolio
+                Bonjour,<br/> Bienvenue sur mon portfolio
             </h1>
             <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-7 '>
-                je suis un étudiant de 3ème année d'informatique<br/>
-                j'étudie acctuellement a l'IUT de lens en BUT informatique,<br/>
+                Je suis un étudiant de 3ème année d'informatique<br/>
+                J'étudie acctuellement a l'IUT de lens en BUT informatique,<br/>
                 ici vous pourrez retrouver les differentes technologies que j'ai appris <br/>
                 ainci que les differents porjets qu j'ai réalisé(personel ou realisé avec l'IUT)<br/>
                 vous pouvez aussi retrouver dans l'onglet experiences mes retours sur<br/>
